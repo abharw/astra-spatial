@@ -1,6 +1,8 @@
-# Astra(l) Projection
+# Astra Spatial
 
 Point, ask, and explore how things work in AR and VR. Built for the Cerebral Valley / OpenAI hackathon.
+
+Built by [Arav Bhardwaj](https://github.com/abharw) and Akeil ([@akeildev](https://github.com/akeildev)). Arav built the iOS/iPadOS AR app (`app/AR`), the SpatialCore/SpatialApple Swift framework (`framework/`), and the Realtime backend (`backend/`). Akeil built the Quest 3 VR app (`app/VR`) and the rack asset pipeline.
 
 ## Features
 

@@ -17,13 +17,13 @@ Read sections 1–3 before changing code. Read sections 4–8 when implementing 
 | Arav branch | `ef10dcbd5160b05205d61f5080a31ef117cfa900` | Product structure, shared contract, imported rack and lazy details |
 | Arav delivery-time update | `8d93cb31aa756f7ab4643dd5c2f85a0e70682432` | Subsequent illustration integration; delta inspected before publishing this handoff |
 
-Repository: [abharw/astra2026](https://github.com/abharw/astra2026). At these pins the branches have **no common merge base**. Perform a deliberate file/module port into Arav; a whole-tree merge would combine unrelated histories and competing application structures.
+Repository: [abharw/astra-spatial](https://github.com/abharw/astra-spatial). At these pins the branches have **no common merge base**. Perform a deliberate file/module port into Arav; a whole-tree merge would combine unrelated histories and competing application structures.
 
 The recursive-detail APK was built and subsequently installed at the wearer's request; its bridge was also restarted on that source. The earlier “staged only” journal and Quest README text describe the preceding delivery checkpoint. The newer concurrency, walkthrough and recursive-detail behavior has source/build evidence, **not completed wearer acceptance**. See [the historical test record](QUEST_LIVE_TESTING.md) for earlier physical observations. This handoff includes no new builds, installations, backend changes or remote headset tests. The wearer has reserved runtime testing for themselves; preserve that boundary unless they explicitly change it.
 
 The Arav descriptions below are source findings at its pin, not a claim that its current branch or device has been tested in this handoff. Refresh both branch tips before integration and account for subsequent changes.
 
-At delivery, Arav advanced to `8d93cb3`, adding negotiated `illustration.v1` jobs, authenticated checksummed image artifacts and an Apple image panel. Preserve those additions during the port. They are a separate image-generation lifecycle, not support for concurrent geometry scopes or a Quest image renderer. The delta also gates new authoring on a synchronized accepted-scene snapshot after receipts; retain that gate. See [its integration status](https://github.com/abharw/astra2026/blob/8d93cb31aa756f7ab4643dd5c2f85a0e70682432/docs/images-2.5-integration-status.md) for that branch's recorded evidence and limits; those results were not rerun here.
+At delivery, Arav advanced to `8d93cb3`, adding negotiated `illustration.v1` jobs, authenticated checksummed image artifacts and an Apple image panel. Preserve those additions during the port. They are a separate image-generation lifecycle, not support for concurrent geometry scopes or a Quest image renderer. The delta also gates new authoring on a synchronized accepted-scene snapshot after receipts; retain that gate. See [its integration status](https://github.com/abharw/astra-spatial/blob/8d93cb31aa756f7ab4643dd5c2f85a0e70682432/docs/images-2.5-integration-status.md) for that branch's recorded evidence and limits; those results were not rerun here.
 
 ## 1. Target ownership
 
@@ -242,7 +242,7 @@ The teaching groups cover chassis, motherboard, memory, processors, heatsinks, f
 
 Important Arav sources:
 
-- [Asset pipeline](https://github.com/abharw/astra2026/blob/ef10dcbd5160b05205d61f5080a31ef117cfa900/docs/asset-pipeline.md), [generic detail expansion](https://github.com/abharw/astra2026/blob/ef10dcbd5160b05205d61f5080a31ef117cfa900/docs/generic-asset-detail-expansion.md) and [processing record](https://github.com/abharw/astra2026/blob/ef10dcbd5160b05205d61f5080a31ef117cfa900/assets/imported-rack/PROCESSING.md).
+- [Asset pipeline](https://github.com/abharw/astra-spatial/blob/ef10dcbd5160b05205d61f5080a31ef117cfa900/docs/asset-pipeline.md), [generic detail expansion](https://github.com/abharw/astra-spatial/blob/ef10dcbd5160b05205d61f5080a31ef117cfa900/docs/generic-asset-detail-expansion.md) and [processing record](https://github.com/abharw/astra-spatial/blob/ef10dcbd5160b05205d61f5080a31ef117cfa900/assets/imported-rack/PROCESSING.md).
 - `app/SpatialDemo/DemoAssetLibrary.swift` binds host-approved resources and hierarchy.
 - `assets/imported-rack/app-catalog.json`, `detail-catalog.json`, `detail-templates.json`, `detail-levels.json`, and `teaching-groups.json` supply identities, mappings and expansion data.
 - `framework/Sources/SpatialApple/Rendering/ImportedAsset.swift` and `ImportedAssetDetails.swift` are the Apple loader/expansion reference; `backend/src/asset-details.ts` exposes approved detail capabilities.
@@ -271,7 +271,7 @@ Preserve `assets/imported-rack/licenses/` and the original notices, including th
 
 ### A. Establish the destination and portable contract
 
-Fetch both branches, record updated pins, and bring the required Quest files into Arav's structure without overwriting its Apple app or asset catalog. Keep the Unity adapter able to run against the legacy bridge during the transition. Reuse Arav's [contract](https://github.com/abharw/astra2026/blob/ef10dcbd5160b05205d61f5080a31ef117cfa900/framework/contract/README.md), [schema](https://github.com/abharw/astra2026/blob/ef10dcbd5160b05205d61f5080a31ef117cfa900/framework/contract/scene.schema.json), and fixed canonical hash fixtures.
+Fetch both branches, record updated pins, and bring the required Quest files into Arav's structure without overwriting its Apple app or asset catalog. Keep the Unity adapter able to run against the legacy bridge during the transition. Reuse Arav's [contract](https://github.com/abharw/astra-spatial/blob/ef10dcbd5160b05205d61f5080a31ef117cfa900/framework/contract/README.md), [schema](https://github.com/abharw/astra-spatial/blob/ef10dcbd5160b05205d61f5080a31ef117cfa900/framework/contract/scene.schema.json), and fixed canonical hash fixtures.
 
 Completion: the destination contains one clear module owner for each concern, and the C# contract consumer passes the same accepted/rejected/hash fixtures as Swift. Hashing follows Astra Canonical Request v1's typed binary encoding, including negative-zero normalization; hashing serialized JSON is incompatible.
 

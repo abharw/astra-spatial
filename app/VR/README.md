@@ -1,4 +1,4 @@
-# astra2026
+# Astra Spatial VR
 
 Spatial Assembly turns a selected iPhone or Quest 3 camera view into an editable, approximate 3D assembly placed in AR. GPT-6 Astra generates component descriptions and bounded geometry; OpenAI Realtime provides voice tools; ARKit/RealityKit on iPhone and Unity/OpenXR on Quest handle local tracking, rendering and interaction.
 

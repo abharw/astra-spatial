@@ -67,7 +67,7 @@ The structural validator separately verifies material shader properties and conn
 
 ## Provenance and hashes
 
-Upstream: [abharw/astra2026, commit 051c9d954292438fc8419661aa91451367961d86](https://github.com/abharw/astra2026/tree/051c9d954292438fc8419661aa91451367961d86/datacenter-rack). Keep the [copied license notices](licenses/README.md), source attribution, and the derivative preparation script with redistribution; the notices distinguish permissive Zaius material from the reciprocal authored rack reconstruction. They do not relicense application code.
+Upstream: [abharw/astra-spatial, commit 051c9d954292438fc8419661aa91451367961d86](https://github.com/abharw/astra-spatial/tree/051c9d954292438fc8419661aa91451367961d86/datacenter-rack). Keep the [copied license notices](licenses/README.md), source attribution, and the derivative preparation script with redistribution; the notices distinguish permissive Zaius material from the reciprocal authored rack reconstruction. They do not relicense application code.
 
 - Source SHA256: `aa98a44a29ab27c7e81116ba0340ad52b9a00e03516ad7ed6f7bf3de9ba0a6ba`
 - Conservative SHA256: `685fb4717cd6209bbb7ecc9a9e993c4d124fa5860958ae0d650215e155a3d84b`

@@ -4,7 +4,7 @@
 
 [New: floor-plan sheets for all five places](floor-plans.md)
 
-[Repeatable workflow](reusable-spatial-workflow.md) · [Full Astra process log](astra-process-log.md) · [Published hackathon journal](https://github.com/abharw/astra2026/blob/Akeil/docs/BUILD_JOURNAL.md)
+[Repeatable workflow](reusable-spatial-workflow.md) · [Full Astra process log](astra-process-log.md) · [Published hackathon journal](https://github.com/abharw/astra-spatial/blob/Akeil/docs/BUILD_JOURNAL.md)
 
 ## 1. Your home walkthrough — IMG_7958 2.MOV
 

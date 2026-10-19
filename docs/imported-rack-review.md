@@ -2,7 +2,7 @@
 
 Reviewed the exterior asset at upstream `Akeil` commit `051c9d954292438fc8419661aa91451367961d86`. The source checkout is isolated under ignored `.local/asset-source`; the primary checkout's branch and existing edits were preserved. No merge, push, or upstream source change was performed.
 
-The pinned source is [abharw/astra2026/datacenter-rack](https://github.com/abharw/astra2026/tree/051c9d954292438fc8419661aa91451367961d86/datacenter-rack). The original binary is `.local/asset-source/datacenter-rack/models/lazy/rack-exterior.usdz`: 25,786,225 bytes, SHA-256 `aa98a44a29ab27c7e81116ba0340ad52b9a00e03516ad7ed6f7bf3de9ba0a6ba`. Its size and hash match the committed Git LFS pointer. Because git-lfs is unavailable locally, only this binary was fetched through GitHub's pinned media endpoint. The 137 MB detail library, authoring masters, GLB alternative and 25 MB part-knowledge database were not downloaded.
+The pinned source is [abharw/astra-spatial/datacenter-rack](https://github.com/abharw/astra-spatial/tree/051c9d954292438fc8419661aa91451367961d86/datacenter-rack). The original binary is `.local/asset-source/datacenter-rack/models/lazy/rack-exterior.usdz`: 25,786,225 bytes, SHA-256 `aa98a44a29ab27c7e81116ba0340ad52b9a00e03516ad7ed6f7bf3de9ba0a6ba`. Its size and hash match the committed Git LFS pointer. Because git-lfs is unavailable locally, only this binary was fetched through GitHub's pinned media endpoint. The 137 MB detail library, authoring masters, GLB alternative and 25 MB part-knowledge database were not downloaded.
 
 ## What the original USDZ contains
 

@@ -1,4 +1,4 @@
-# Astra AR — framework research
+# Astra Spatial AR — framework research
 
 2026-09-08. Initial research background. Core contracts, the native app, RealityKit adapter, unified Realtime conversation path, and session service now exist. Live Astra-to-Swift runs and signed iPad camera deployment have passed; acceptance of the updated composer, automatic hand mode, and combined physical interaction remains pending. The current design is [architecture.md](architecture.md); the chronological Arav/Astra collaboration log is [APPROACH.md](../APPROACH.md). Where this research discusses alternatives, the architecture document records the current choice.
 
